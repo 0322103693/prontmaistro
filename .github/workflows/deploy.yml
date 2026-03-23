@@ -32,7 +32,7 @@ jobs:
           cache: npm
 
       - name: Instalar dependencias
-        run: npm ci
+        run: npm install
 
       - name: Crear archivo .env para build
         run: echo "VITE_GEMINI_API_KEY=${{ secrets.VITE_GEMINI_API_KEY }}" >> .env
