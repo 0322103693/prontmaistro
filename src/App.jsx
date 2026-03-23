@@ -277,7 +277,7 @@ function TarjetaMetrica({ label, value, hint }) {
 }
 
 function App() {
-  const apiKey = import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyDTcw5CHoBvRYmtPDEbxffAwrU8Y6CHyKs";
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY || "";
   const model = "gemini-2.5-flash";
   const prompt = PROMPT_MAESTRO;
 
