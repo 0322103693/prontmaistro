@@ -1,8 +1,5 @@
-# MindVoice
-
-Proyecto web con IA para:
-- transcripción
-- resúmenes
-- tareas
-- mapa mental
-- exportación de resultados
+<<<<<<< HEAD
+(tu contenido)
+=======
+(contenido de GitHub)
+>>>>>>> origin/main
